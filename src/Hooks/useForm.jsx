@@ -5,6 +5,10 @@ const types = {
     regex: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/,
     message: 'Preencha um email válido',
   },
+  number: {
+    regex: /^\d+$/,
+    message: 'Utilize números apenas.',
+  },
 };
 
 //types[type] = types.email, porém não dá para passar com o ponto pois o 'type' abaixo vem como uma string

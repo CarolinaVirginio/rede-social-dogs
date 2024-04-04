@@ -34,7 +34,7 @@
   border-color: #fb1;
 }
 
-.nav a:global(.active) svg > * {
+.nav :global(a.active) svg > * {
   fill: #fb1;
 }
 
@@ -109,7 +109,7 @@
   background: none;
   width: 100%;
   border: none;
-  border-bottom: 1px;
+  border-bottom: 1px solid #eee;
   padding: 0.5rem 0;
   cursor: pointer;
 }

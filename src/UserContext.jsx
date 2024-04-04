@@ -61,7 +61,7 @@ export const UserStorage = ({ children }) => {
         } catch (err) {
           userLogout();
         } finally {
-          setLogin(false);
+          setLoading(false);
         }
       } else {
         setLogin(false);
